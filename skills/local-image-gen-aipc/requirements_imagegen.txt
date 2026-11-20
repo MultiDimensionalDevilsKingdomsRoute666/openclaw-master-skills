@@ -4,7 +4,7 @@
 openvino>=2025.4
 
 # PyTorch CPU（OVZImagePipeline 内部依赖）
-torch==2.8
+torch==2.12.1+cpu
 torchvision==0.23.0
 
 # Optimum-Intel 指定版本（含 OVZImagePipeline，Z-Image-Turbo 必须）
